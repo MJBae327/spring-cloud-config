@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:tcp://localhost/~/test
+    username: sa
+    password: '{cipher}AQCgm+OhVJ8vQd5e4+kB7CuJJNsHlHyaV4jzxhNsFvNP2zx3xOSmzvQdl0bITBCvdxsSLf0UVZG0BIVCGaMrusV7X5+7QjWDcSE7kVMCggqQ4fcoKDGNsA+QzGJmCHh1hSnvfZDjNZPNteRayjkHQ3oXpGHb3nqhGthfUhrKl80PaZ5xM4Vusa4jHSw4gc5WJUNcuJaPzu0ge7vnPVleCYFWEM+gPqUjh3F18DlQPlsqKva65pPKjKpMdcf5fXtDsBomCbgHXQA7zVCpys0J5PpczR3/2DP5FfBm5asf6pzJVRq57G6YhzyvOj5EloLbWQ27DYWjutyhrHPLy4dYmm4B7jLJtxxaLwzW+OzguYgFjN5/z7PvhzLZ7jq+B1Hz+2E='
+token:
+  expiration_time: 86400000
+  secret: '{cipher}AQAhwavraRe5LRjsgUDj97cyMBbo2VFDefJhqAyCeaKDcHr54CxegQkACjM2gNHeTQJLUQR83pQFuWBddrGep5lvyW0i59ERUBPtT1t3mvJwrpDou3KIooK7lYM2qlmWst9m+JqhJXl/C/iwjamNzq8hln8E0fSz7yr9Vq0RhaR2+4dVvCSb6Sx+Dy6SUjm/HLKTbNl+VzKFsc4LkyRDZfmeYhi8is5khz+oSSdca0w3q96POL0Gm15Wb/q3juYRN52JdDwbe+L+3oIXS8t4sbCglKrBiEWTbGa6ub7LHqLe7cNYfo6ZnoEKCEOD8Qm9HrVpOo3LRq92a+nSML2+p+I0bjyQDgSkiPxzzOvT7cycLZDCw4225d2w+Zp9txgV0JYxCqk9gSEyROFidsaNWb4CMGuRR/NCkMPIhfO/mO9nXg=='
+
+gateway:
+  ip: 192.168.10.100
